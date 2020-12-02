@@ -1,16 +1,45 @@
-h1 {
+body {
+    background-color: aquamarine;
+}
+
+.title {
     color: purple;
     border: 3px solid gray;
-    border-radius: 15px;
-    padding: 5px;
     text-align: center;
+}
+
+img {
+ width: 150px;
+ height: 250px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
 h2 {
     color: gray;
-    text-align: left;
-    text-decoration: underline;
+    text-align: ;
+    
 }
-.my-info {
+
+.info {
     color: black;
     
+}
+
+.flex-container {
+    display:flex;
+}
+
+.secondary {
+  margin-left: 250px;
+  flex-direction: column;
+  margin-bottom: 1000px;
+  
+}
+
+h3 {
+display: flex;
 }
